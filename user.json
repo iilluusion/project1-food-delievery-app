@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "kartik",
+        "password": "1234",
+        "age": 23,
+        "phone number": "1234567890",
+        "order history": {}
+    },
+    {
+        "id": 2,
+        "name": "vishal",
+        "password": "1234",
+        "age": 23,
+        "phone number": "0987654321",
+        "order history": {}
+    },
+    {
+        "id": 3,
+        "name": "kartikey",
+        "password": "1111",
+        "age": 21,
+        "phone number": "23456",
+        "order history": {}
+    },
+    {
+        "id": 4,
+        "name": "vaish",
+        "password": "123",
+        "age": 22,
+        "phone number": "6267504984",
+        "order history": {}
+    }
+]
