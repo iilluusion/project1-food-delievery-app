@@ -81,9 +81,9 @@ def user_place_order(user_json, food_json, user_id, food_name, quantity):
                 print("Pls Enter less quantity")
                 break
     if flag == 0:
-        print("Be ready for your order")
-    elif flag == 1:
         print("Order not available")
+    elif flag == 1:
+        print("Be ready for your order")
         if food_price > 100:
          food_price_with_discount = food_price*0.2
          food_price = food_price-food_price_with_discount
