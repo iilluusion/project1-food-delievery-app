@@ -81,16 +81,15 @@ def user_place_order(user_json, food_json, user_id, food_name, quantity):
                 print("Pls Enter less quantity")
                 break
     if flag == 0:
-        print("Order not Available")
-    elif(flag == 1):
-        print("Be Ready For Your Order")
+        print("Be ready for your order")
+    elif flag == 1:
+        print("Order not available")
         if food_price > 100:
-            food_price_with_discount = food_price*0.2
-            food_price = food_price-food_price_with_discount
-            print(
-                "Congratulations you got 20 percent discount on Order paid only:", food_price, "rs")
-        else:
-            print("Sorry No Discount")
+         food_price_with_discount = food_price*0.2
+         food_price = food_price-food_price_with_discount
+         print("Congratulations you got 20 percent discount on Order paid only:", food_price, "rs")
+    else:
+       print("Sorry No Discount")
     file.seek(0)
     file.truncate()
     json.dump(content, file, indent=4)
